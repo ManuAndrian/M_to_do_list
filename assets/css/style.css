@@ -1,0 +1,127 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right:auto ;
+    width: 80%;
+    height: auto;
+    height: 600px;
+}
+select{
+    height: 1cm;
+    width:2.5cm;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+}
+select:hover{
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+};
+.Activite{
+    margin-left: 2cm;
+}
+
+Activite {
+    display: flex;
+    justify-content: center; /* Centrer les boutons horizontalement */
+    gap: 15px; /* Espacement entre les boutons */
+    padding: 10px; /* Espacement intérieur */
+    background-color: #f8f9fa; /* Couleur de fond légère pour le menu */
+    border-radius: 5px; /* Coins arrondis du conteneur */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre légère pour le conteneur */
+}
+
+/* Styles pour chaque bouton */
+.Activite a {
+    text-decoration: none; /* Enlever le soulignement des liens */
+    font-size: 16px; /* Taille de la police */
+    font-weight: 500; /* Poids de la police */
+    padding: 10px 20px; /* Espacement intérieur des boutons */
+    border-radius: 5px; /* Coins arrondis des boutons */
+    transition: background-color 0.3s, color 0.3s; /* Transition douce pour les changements de couleur */
+}
+.Activite  p{
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+/* Styles pour l'état au survol des boutons */
+.Activite a:hover {
+    background-color: #e9ecef; /* Couleur de fond au survol */
+    color: #495057; /* Couleur du texte au survol */
+}
+
+input#tache {
+    border: 1px solid #0cb3f5; /* Bordure bleue */
+    border-radius: 4px; /* Coins légèrement arrondis */
+    padding: 10px; /* Espacement intérieur */
+    outline: none; /* Enlève le contour par défaut du champ de saisie */
+    transition: box-shadow 0.3s ease; /* Transition douce pour l'effet de flou */
+}
+
+/* Effet de flou au survol ou au focus */
+input#tache:focus {
+    box-shadow: 0 0 10px rgba(103, 223, 241, 0.5); /* Effet de flou bleu */
+}
+
+
+.col-md-5 {
+    margin: 20px auto; /* Centrer le conteneur et ajouter de la marge */
+    padding: 20px;
+    background-color: #f8f9fa; /* Couleur de fond légère */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+/* Titre principal */
+.col-md-5 h1 {
+    text-align: center; /* Centrer le titre */
+    margin-bottom: 20px; /* Ajouter de l'espace sous le titre */
+    font-size: 24px; /* Taille de police augmentée */
+    color: #343a40; /* Couleur du texte */
+}
+
+/* Table */
+.table {
+    width: 100%; /* Prendre toute la largeur disponible */
+    margin-bottom: 20px; /* Ajouter de l'espace sous la table */
+    background-color: #ffffff; /* Couleur de fond blanche */
+    border: 1px solid #dee2e6; /* Bordure légère */
+}
+
+/* En-tête de table */
+.table thead th {
+    background-color: #343a40; /* Couleur de fond sombre */
+    color: #ffffff; /* Couleur du texte blanc */
+    text-align: center; /* Centrer le texte */
+    padding: 10px; /* Espacement intérieur */
+}
+
+/* Corps de table */
+.table tbody td {
+    text-align: center; /* Centrer le texte */
+    padding: 10px; /* Espacement intérieur */
+}
+
+/* Bouton d'action */
+.btn-danger.btn-sm {
+    padding: 5px 10px 5px; /* Espacement intérieur réduit */
+    font-size: 14px; /* Taille de police réduite */
+    border-radius: 4px; /* Coins légèrement arrondis */
+    transition: background-color 0.3s ease; /* Transition douce pour le changement de couleur */
+    justify-content: center;
+}
+
+.btn-danger.btn-sm:hover {
+    background-color: #15dd2d; /* Couleur de fond au survol */
+}
+
+/* Icone de suppression */
+.glyphicon-trash {
+    margin-right: 5px; /* Espace entre l'icône et le texte */
+}
+
+#blur-table {
+    filter: blur(100px); /* Applique un flou à l'ensemble du tableau */
+}
+
